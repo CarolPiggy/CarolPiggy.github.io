@@ -1,0 +1,29 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Microsoft YaHei;
+}
+
+body {
+	background: #fd79a8;
+}
+
+h1 {
+	color: white;
+	-webkit-text-stroke: 1px #bbb;
+	font-size: 3em;
+	text-align: center;
+	margin-top: 5%;
+}
+
+h2 {
+	color: white;
+	margin-left: 15%;
+	margin-top: 5%;
+}
+
+ p {
+ 	color: white;
+	margin-left: 15%;
+	margin-top: 1%;
+ }
