@@ -17,7 +17,7 @@ function GetServerTime()
         obj.innerHTML="<h1><span>"+daysRound+"</span> 天 <span>"+hoursRound+"</span> 时 <span>"+minutesRound+"</span> 分</h1>" ;
     }
 }
-setInterval("GetServerTime()",30000);
+setInterval("GetServerTime()",500);
 
 GetServerTime()
 
