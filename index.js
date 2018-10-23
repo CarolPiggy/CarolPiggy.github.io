@@ -1,4 +1,4 @@
-var now = new Date();
+﻿var now = new Date();
 function GetServerTime()
 {
     var urodz = new Date("12/22/2018 08:30:00");//设定倒计时的时间
@@ -14,10 +14,10 @@ function GetServerTime()
     var obj = document.getElementById("time_second");
     daysRound = daysRound;
     if(daysRound >= 0) {
-        obj.innerHTML="<h1><span>"+daysRound+"</span> 天 <span>"+hoursRound+"</span> 时 <span>"+minutesRound+"</span> 分 <span>"+secondsRound+"</span> 秒</h1>" ;
+        obj.innerHTML="<h1><span>"+daysRound+"</span> 天 <span>"+hoursRound+"</span> 时 <span>"+minutesRound+"</span> 分</h1>" ;
     }
 }
-setInterval("GetServerTime()",500);
+setInterval("GetServerTime()",30000);
 
 GetServerTime()
 
