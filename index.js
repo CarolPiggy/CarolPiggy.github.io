@@ -1,7 +1,7 @@
 ﻿var now = new Date();
 function GetServerTime()
 {
-    var urodz = new Date("12/22/2018 08:30:00");//设定倒计时的时间
+    var urodz = new Date("3/23/2019 08:30:00");//设定倒计时的时间
     now.setTime(now.getTime()+250);
     days = (urodz - now) / 1000 / 60 / 60 / 24;
     daysRound = Math.floor(days);
